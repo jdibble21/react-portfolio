@@ -7,6 +7,9 @@ import Image from 'react-bootstrap/Image';
 import phpIcon from './../files/icons/php_icon.jpg';  //90x74
 import jsIcon from './../files/icons/javascript_icon.jpg';
 import mysqlIcon from './../files/icons/mysql_icon.jpg';
+import pythonIcon from './../files/icons/python_icon.jpg';
+import gitIcon from './../files/icons/git_icon.jpg';
+import javaIcon from './../files/icons/java_icon.jpg';
 
 class DetailsSection extends Component {
     styles = {
@@ -33,11 +36,17 @@ class DetailsSection extends Component {
                                 <Col>
                                     <Image src={mysqlIcon}/>
                                 </Col>
-                                <Col>Icon</Col>
+                                <Col>
+                                    <Image src={pythonIcon} />
+                                </Col>
                             </Row>
                             <Row className="m-3">
-                                <Col>Icon</Col>
-                                <Col>Icon</Col>
+                                <Col>
+                                    <Image src={gitIcon} />
+                                </Col>
+                                <Col>
+                                    <Image src={javaIcon} />
+                                </Col>
                             </Row>
                         </Container>
                     </Card>
