@@ -1,32 +1,25 @@
 import React, { Component } from 'react';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
-class Navbar extends Component {
+class NavbarCustom extends Component {
     state = {  }
     render() { 
         return ( 
-            <nav class="navbar navbar-expand-lg bg-light navbar-light ">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Jake Dibble</a>
-              <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">View Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Play Games</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+          <Navbar bg="light" expand="lg">
+          <Navbar.Brand href="#home">Jacob Dibble</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href="#home">Projects</Nav.Link>
+              <Nav.Link href="#link">Games</Nav.Link>
+              <Nav.Link href="#link">Contact</Nav.Link>
+              <Nav.Link href="#link">Resume</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
         );
     }
 }
  
-export default Navbar;
+export default NavbarCustom;
