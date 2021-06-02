@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import Card from 'react-bootstrap/Card';
 
 class BioSection extends Component {
-    state = {  }
     render() { 
-        return (  );
+        return ( 
+            <Card>
+                <Card.Body> Bio goes here!</Card.Body>
+            </Card>
+         );
     }
 }
  
