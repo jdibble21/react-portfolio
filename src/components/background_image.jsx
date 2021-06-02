@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import Image from 'react-bootstrap/Image';
 import backImage from './../files/background_image.jpg';
-import profileImage from './../files/profile_image.jpg';
 
 class BackgroundImage extends Component {
+    
+    backgroundStyle = {
+        position: "absolute",
+        display: "block"
+    }
     render() { 
         return (
             <div>
-                <Image src={backImage} alt="background image" fluid />
-                <Image className="mx-auto d-block" src={profileImage} alt="profile image" roundedCircle fluid/>
+                <Image src={backImage} style={this.backgroundStyle} alt="background image" fluid />
             </div>
         );
     }
