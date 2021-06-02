@@ -8,13 +8,13 @@ class PageButtons extends Component {
     state = {  }
     render() { 
         return (
-            <Container>
+            <Container className="mx-auto">
                 <Row>
                     <Col>
-                        <Button className="mx-auto">Projects</Button>
+                        <Button className="mx-auto" size="lg">Projects</Button>
                     </Col>
                     <Col>
-                        <Button className="mx-auto">Games</Button>
+                        <Button className="mx-auto" size="lg">Games</Button>
                     </Col>
                 </Row>
             </Container>

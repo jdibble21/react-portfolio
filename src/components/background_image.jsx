@@ -10,7 +10,7 @@ class BackgroundImage extends Component {
     }
     render() { 
         return (
-            <Container>
+            <Container className="mt-5">
             <div>
                 <Image src={backImage} style={this.backgroundStyle} alt="background image" fluid />
             </div>

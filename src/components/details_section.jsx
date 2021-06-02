@@ -11,7 +11,7 @@ class DetailsSection extends Component {
     }
     render() { 
         return ( 
-            <Container className="m-5">
+            <Container className="mx-auto m-5">
                 <Row style={this.styles}>
                     <Col className="text-center m-4">
                     <Card style={this.style}>
