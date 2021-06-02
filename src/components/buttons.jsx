@@ -11,10 +11,10 @@ class PageButtons extends Component {
             <Container className="mx-auto">
                 <Row>
                     <Col>
-                        <Button className="mx-auto" size="lg">Projects</Button>
+                        <Button className="mx-auto m-5" size="lg" block>Projects</Button>
                     </Col>
                     <Col>
-                        <Button className="mx-auto" size="lg">Games</Button>
+                        <Button className="mx-auto m-5" size="lg" block>Games</Button>
                     </Col>
                 </Row>
             </Container>

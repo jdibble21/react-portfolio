@@ -10,6 +10,7 @@ import BackgroundImage from './components/background_image';
 import BioSection from './components/bio_section';
 import DetailsSection from './components/details_section';
 import PageButtons from './components/buttons';
+import ContactSection from './components/contact';
 
 ReactDOM.render(<NavbarCustom />, document.getElementById("navDiv"));
 
@@ -20,3 +21,5 @@ ReactDOM.render(<BioSection />, document.getElementById("bioDiv"));
 ReactDOM.render(<DetailsSection />, document.getElementById("detailsDiv"));
 
 ReactDOM.render(<PageButtons/>, document.getElementById("buttonDiv"));
+
+ReactDOM.render(<ContactSection />,document.getElementById("contactDiv"));
