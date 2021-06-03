@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css'; 
 import 'bootstrap/dist/js/bootstrap';
@@ -23,3 +24,4 @@ ReactDOM.render(<DetailsSection />, document.getElementById("detailsDiv"));
 ReactDOM.render(<PageButtons/>, document.getElementById("buttonDiv"));
 
 ReactDOM.render(<ContactSection />,document.getElementById("contactDiv"));
+
