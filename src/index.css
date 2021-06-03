@@ -14,3 +14,13 @@ code {
 .exp-descript{
   font-size: 13px!important;
 }
+
+.btn-lg.round {
+	border-radius: 24px!important;
+  background-color: #E9322E;
+  border-color: #45433E;
+}
+
+.card{
+  background-color: #FFFFFF!important;
+}

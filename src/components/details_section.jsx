@@ -15,7 +15,7 @@ import javaIcon from './../files/icons/java_icon.jpg';
 class DetailsSection extends Component {
     styles = {
         color: "black",
-        "background-color": "#E9322E"
+        "background-color": "#959794"
     }
     render() { 
         return ( 

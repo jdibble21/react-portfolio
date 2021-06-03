@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import Container from 'react-bootstrap/Container';
 
 class ProjectsPage extends Component {

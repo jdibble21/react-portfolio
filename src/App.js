@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import ProjectsPage from './pages/projects';
+import GamesPage from './pages/gamepage';
 import NavbarCustom from './components/navbar';
 import BackgroundImage from './components/background_image';
 import BioSection from './components/bio_section';
@@ -18,6 +19,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={HomePage}></Route>
               <Route path="/projects" component={ProjectsPage} ></Route>
+              <Route path="/games" component={GamesPage}></Route>
             </Switch>
           </div>
         </Router>

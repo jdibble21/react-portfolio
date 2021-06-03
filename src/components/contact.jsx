@@ -6,7 +6,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 class ContactSection extends Component {
     styles = {
         color: "black",
-        "background-color": "#E9322E"
+        "background-color": "#959794"
     }
     cardStyle = {
         width: "60rem"
