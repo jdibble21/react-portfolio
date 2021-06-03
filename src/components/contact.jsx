@@ -20,7 +20,7 @@ class ContactSection extends Component {
                     <ListGroup variant="flush">
                         <ListGroup.Item>Email: <a href="mailto:jrdibble98@outlook.com">jrdibble98@outlook.com</a></ListGroup.Item>
                         <ListGroup.Item>Phone: 219-929-8183</ListGroup.Item>
-                        <ListGroup.Item>LinkedIn: <a href="https://www.linkedin.com/in/jacob-dibble-397896169/" target="_blank">Jacob Dibble</a></ListGroup.Item>
+                        <ListGroup.Item>LinkedIn: <a href="https://www.linkedin.com/in/jacob-dibble-397896169/">Jacob Dibble</a></ListGroup.Item>
                     </ListGroup>
                 </Card>
                 </Row>

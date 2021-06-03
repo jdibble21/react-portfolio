@@ -19,13 +19,13 @@ class DetailsSection extends Component {
     }
     render() { 
         return ( 
-            <Container className="mx-auto m-5">
-                <Row className="rounded m-5" style={this.styles}>
-                    <Col className="text-center m-4">
+            <Container className="mx-auto">
+                <Row className="rounded m-1" style={this.styles}>
+                    <Col className="text-center m-2">
                     <Card style={this.style}>
                         <Card.Title>Skills</Card.Title>
                         <Container>
-                            <Row className="m-3">
+                            <Row className="m-4">
                                 <Col>
                                     <Image src={phpIcon} />
                                 </Col>
@@ -53,14 +53,14 @@ class DetailsSection extends Component {
                     </Card>
                     </Col>
                     
-                    <Col className="text-center m-4">
+                    <Col className="text-center m-2">
                     <Card style={this.style}>
                         <Card.Title>Experience</Card.Title>
                         <ListGroup className="text-left">
                             <ListGroup.Item>
                                 <Card>
                                     <Card.Title className="font-weight-bold">Betterflye Content Management System</Card.Title>
-                                    <Card.Text className="exp-descript" >Senior year capstone project. Involved building user post management features, such as profanity and image filters and administrative tools for banning users, deleting posts, and user organization tools</Card.Text>
+                                    <Card.Text className="exp-descript" >Senior year capstone project. Using PHP, MySQL and HTML/CSS. Built user post management features, such as profanity and image filters and administrative tools for banning users, deleting posts, and user organization tools</Card.Text>
                                 </Card>
                             </ListGroup.Item>
                             <ListGroup.Item>

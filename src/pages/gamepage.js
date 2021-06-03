@@ -1,6 +1,6 @@
 //godot game list here
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
+//import Container from 'react-bootstrap/Container';
 
 class GamesPage extends Component {
     state = {  }

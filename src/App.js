@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ProjectsPage from './pages/projects';
 import GamesPage from './pages/gamepage';
 import NavbarCustom from './components/navbar';
@@ -33,8 +33,21 @@ const HomePage = () => (
         <BackgroundImage/>
         <BioSection/>
         <DetailsSection/>
-        <PageButtons />
+        <Router>
+          <div>
+            <PageButtons />
+            <Switch>
+              <Route path="/projects" component={ProjectsPage} ></Route>
+              <Route path="/games" component={GamesPage}></Route>
+            </Switch>
+          </div>
+        </Router>
+        
         <ContactSection/>
       </div>
 );
 export default App;
+
+//External device testing
+//Laptop ip: 192.168.1.90:3000
+//Desktop ip: 
