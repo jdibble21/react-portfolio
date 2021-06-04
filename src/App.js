@@ -51,4 +51,4 @@ export default App;
 
 //External device testing
 //Laptop ip: 192.168.1.90:3000
-//Desktop ip: 
+//Desktop ip: 192.168.1.68:3000

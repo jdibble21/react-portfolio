@@ -52,9 +52,10 @@ class ProjectList extends Component {
                 <Row>
                     <Col>
                         <Card className="m-4">
-                            <Card.Title>Project Title</Card.Title>
-                            <Card.Body>Project description here</Card.Body>
-                            <Card.Link className="m-2" href="#" target="_blank">View Project Repository</Card.Link>
+                            <Card.Title>React Portfolio App</Card.Title>
+                            <Card.Subtitle>Stack: JavaScript, React, Bootstrap, HTML/CSS</Card.Subtitle>
+                            <Card.Body>The pages you are currently visiting is the project! Purpose of the app is to display my portfolio while learning React to enhance my frontend skills</Card.Body>
+                            <Card.Link className="m-2" href="https://github.com/jdibble21/react-portfolio" target="_blank">View Project Repository</Card.Link>
                         </Card>
                     </Col>
                 </Row>

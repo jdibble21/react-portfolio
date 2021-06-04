@@ -1,12 +1,22 @@
 //godot game list here
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
+import GamesList from './../components/gameList';
 
 class GamesPage extends Component {
-    state = {  }
+    style = {
+        color: "black"
+    }
+    titleStyle = {
+        color: "#FFFFFF"
+    }
     render() { 
         return ( 
-            <h1>Game page</h1>
+            <Container className="mx-auto text-left" style={this.style}>
+                <h1 style={this.titleStyle} className="text-center">Game page</h1>
+                <GamesList/>
+            </Container>
+            
          );
     }
 }
