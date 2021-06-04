@@ -30,6 +30,14 @@ code {
   color:#FFFFFF!important;
 }
 
-.nav-link :hover{
-  color: #ebebeb!important;
-}
+.nav-link {
+  display: inline-block;
+  background-color:#E9322E;/*will change background-color of element */
+  transition: 0.3s;
+  }
+  
+  .nav-link:hover {
+  background-color:#959794; /*will change background-color of element on hover */
+  color: white; /*will change color of text within the element on hover */
+  border-radius: 20px;
+  }

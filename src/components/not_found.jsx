@@ -14,7 +14,7 @@ class NotFoundPage extends Component {
                     <Col><h1>404 Not Found</h1></Col>
                 </Row>
                 <Row>
-                    <Col><p>Page requested cannot be found. <a href="#">Let me know</a> if I made a mistake!</p></Col>
+                    <Col><p>Page requested cannot be found. <a href="/home">Let me know</a> if I made a mistake!</p></Col>
                 </Row>
             </Container>
          );
