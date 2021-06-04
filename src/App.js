@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ProjectsPage from './pages/projects';
 import GamesPage from './pages/gamepage';
 import NavbarCustom from './components/navbar';
-import BackgroundImage from './components/background_image';
+import ProfileBio from './components/profile_bio';
 import DetailsSection from './components/details_section';
 import PageButtons from './components/buttons';
 import ContactSection from './components/contact';
@@ -29,7 +29,7 @@ class App extends Component {
 
 const HomePage = () => (
       <div>
-        <BackgroundImage/>
+        <ProfileBio/>
         <DetailsSection/>
         <Router>
           <div>

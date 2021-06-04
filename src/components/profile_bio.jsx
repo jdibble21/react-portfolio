@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import profileImage from './../files/profile_image.jpg';
 
-class BackgroundImage extends Component {
+class ProfileBio extends Component {
     backgroundStyle = {
         position: "",
         display: "block"
@@ -32,4 +32,4 @@ class BackgroundImage extends Component {
     }
 }
  
-export default BackgroundImage;
+export default ProfileBio;
