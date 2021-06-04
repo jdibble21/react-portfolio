@@ -13,15 +13,15 @@ class GamesList extends Component {
                     <Col>
                         <Card className="m-4">
                             <Card.Title>Space Odyssey</Card.Title>
-                            <Card.Body>Description here</Card.Body>
+                            <Card.Body>Top-down scrolling space shooter. Shoot enemy ships and collect powerups through two levels with a unique boss at the end of each!</Card.Body>
                         </Card>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
                         <Card className="m-4">
-                            <Card.Title>Game Name</Card.Title>
-                            <Card.Body>Description here</Card.Body>
+                            <Card.Title>Spooky Invaders</Card.Title>
+                            <Card.Body>Arcade inspired built with inspiration from space invaders and galaga. Theme for game was "Spooky Quarantine", created within 1 week.</Card.Body>
                         </Card>
                     </Col>
                 </Row>
