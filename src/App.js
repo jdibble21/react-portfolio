@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import ProjectsPage from './pages/projects';
 import GamesPage from './pages/gamepage';
 import NavbarCustom from './components/navbar';
@@ -7,6 +7,7 @@ import ProfileBio from './components/profile_bio';
 import DetailsSection from './components/details_section';
 import PageButtons from './components/buttons';
 import ContactSection from './components/contact';
+import NotFoundPage from './components/not_found';
 
 class App extends Component {
   render() {
@@ -19,6 +20,8 @@ class App extends Component {
               <Route exact path="/" component={HomePage}></Route>
               <Route path="/projects" component={ProjectsPage} ></Route>
               <Route path="/games" component={GamesPage}></Route>
+              <Route path="/404" component={NotFoundPage}></Route>
+              <Redirect to="404"></Redirect>
             </Switch>
           </div>
         </Router>

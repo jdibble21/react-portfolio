@@ -8,7 +8,7 @@ class NavbarCustom extends Component {
   }
     render() { 
         return ( 
-          <Navbar id="navBarOverride" expand="lg">
+          <Navbar id="navBarOverride" expand="lg" className="py-3">
           <Navbar.Brand style = {this.style} href="/">Jacob Dibble</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
