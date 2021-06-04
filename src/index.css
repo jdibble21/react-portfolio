@@ -24,3 +24,12 @@ code {
 .card{
   background-color: #FFFFFF!important;
 }
+
+#navBarOverride{
+  background-color: #E9322E!important;
+  color:#FFFFFF!important;
+}
+
+.nav-link :hover{
+  color: #ebebeb!important;
+}

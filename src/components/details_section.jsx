@@ -19,7 +19,7 @@ class DetailsSection extends Component {
     }
     render() { 
         return ( 
-            <Container className="mx-auto">
+            <Container className="mx-auto mb-5" >
                 <Row className="rounded m-1" style={this.styles}>
                     <Col className="text-center m-2">
                     <Card style={this.style}>

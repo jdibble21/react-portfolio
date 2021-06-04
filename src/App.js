@@ -4,7 +4,6 @@ import ProjectsPage from './pages/projects';
 import GamesPage from './pages/gamepage';
 import NavbarCustom from './components/navbar';
 import BackgroundImage from './components/background_image';
-import BioSection from './components/bio_section';
 import DetailsSection from './components/details_section';
 import PageButtons from './components/buttons';
 import ContactSection from './components/contact';
@@ -31,7 +30,6 @@ class App extends Component {
 const HomePage = () => (
       <div>
         <BackgroundImage/>
-        <BioSection/>
         <DetailsSection/>
         <Router>
           <div>
