@@ -21,6 +21,12 @@ code {
   border-color: #45433E;
 }
 
+.btn-lg.round:hover{
+  background-color: #FFFFFF;
+  color:#45433E;
+}
+
+
 .card{
   background-color: #FFFFFF!important;
 }
@@ -33,19 +39,21 @@ code {
 .nav-link {
   display: inline-block;
   background-color:#E9322E;
-  color: #FFFFFF;
+  color: #FFFFFF!important;
   transition: 0.2s;
 }
   
   .nav-link:hover {
   background-color:#959794; 
-  color: green; 
+  color: #19171A!important; 
 }
 
-.navbar-brand{
-  color: white;
+.navbar .navbar-brand{
+  color: white!important;
+  
 }
-.navbar-brand:hover{
-  color:green;
+
+.navbar .navbar-brand:hover{
+  color:#19171A!important;
 }
 

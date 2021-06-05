@@ -3,9 +3,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
 class NavbarCustom extends Component {
-  style={
-    color: "#FFFFFF"
-  }
     render() { 
         return ( 
           <Navbar  id="navBarOverride" expand="lg">

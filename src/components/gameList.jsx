@@ -28,8 +28,8 @@ class GamesList extends Component {
                 <Row>
                     <Col>
                         <Card className="m-4">
-                            <Card.Title>Game Name</Card.Title>
-                            <Card.Body>Description here</Card.Body>
+                            <Card.Title>Forest Runner</Card.Title>
+                            <Card.Body>Side scrolling platformer style game. Collect the sword, defeat the bandit, and make it to the end to win!</Card.Body>
                         </Card>
                     </Col>
                 </Row>
