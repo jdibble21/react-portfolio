@@ -21,7 +21,7 @@ class ContactSection extends Component {
                 <Card className="m-5 mt-5 mx-auto" style={this.cardStyle}>
                     <Card.Title>Contact</Card.Title>
                     <ListGroup variant="flush">
-                        <ListGroup.Item><Button id="getPdf" className="mx-auto round" href={pdf} without rel="noopener noreferrer" target="_blank">Download Resume</Button></ListGroup.Item>
+                        <ListGroup.Item><Button id="getPdf" className="mx-auto round" href={pdf} without rel="noopener noreferrer" target="_blank">View Resume</Button></ListGroup.Item>
                         <ListGroup.Item>Email: <a href="mailto:jrdibble98@outlook.com">jrdibble98@outlook.com</a></ListGroup.Item>
                         <ListGroup.Item>Phone: 219-929-8183</ListGroup.Item>
                         <ListGroup.Item>LinkedIn: <a href="https://www.linkedin.com/in/jacob-dibble-397896169/">Jacob Dibble</a></ListGroup.Item>

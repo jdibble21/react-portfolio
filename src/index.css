@@ -65,3 +65,8 @@ code {
   color:#19171A!important;
 }
 
+a.disabled{
+  color: gray;
+  pointer-events: none;
+}
+

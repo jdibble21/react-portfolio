@@ -22,6 +22,16 @@ class ProjectList extends Component {
                 <Row>
                     <Col>
                         <Card className="m-4 border-0">
+                            <Card.Title className="m-2">MonoSol IT Service Dashboard</Card.Title>
+                            <Card.Subtitle className="m-2">Stack: Python, PowerShell, HTML/CSS, JavaScript</Card.Subtitle>
+                            <Card.Body className="m-2">Dashboard site hosted on an internal company server. Displays information such as Palo Alto Firewall status, Veeam Backup and Replication latest backup jobs with details, Cortex XDR user activity, active/inactive status of various servers and more. </Card.Body>
+                            <Card.Link className="m-2 disabled" href="#" target="_blank" disabled>No repository available</Card.Link>
+                        </Card>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <Card className="m-4 border-0">
                             <Card.Title className="m-2">Stroke Prediction Classifier</Card.Title>
                             <Card.Subtitle className="m-2">Stack: Python (pandas, numpy)</Card.Subtitle>
                             <Card.Body>Extension of a data mining project that uses stroke patient data to run tests on a descision tree to determine accuracy of classifier. Uses pandas and numpy libraries for csv data processing, and follows K-fold testing procedure. Currently, only 39% accurate at determining whether a stroke will occur or not, with no machine learning libraries used. Hopefully I can get that number up! </Card.Body>
@@ -56,15 +66,6 @@ class ProjectList extends Component {
                             <Card.Subtitle className="m-2">Stack: JavaScript, React, Bootstrap, HTML/CSS</Card.Subtitle>
                             <Card.Body>The pages you are currently visiting is the project! Purpose of the app is to display my portfolio while learning React to enhance my frontend skills</Card.Body>
                             <Card.Link className="m-2" href="https://github.com/jdibble21/react-portfolio" target="_blank">View Project Repository</Card.Link>
-                        </Card>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <Card className="m-4 border-0">
-                            <Card.Title className="m-2">Project Title</Card.Title>
-                            <Card.Body className="m-2">Project description here</Card.Body>
-                            <Card.Link className="m-2" href="#" target="_blank">View Project Repository</Card.Link>
                         </Card>
                     </Col>
                 </Row>
