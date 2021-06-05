@@ -27,6 +27,14 @@ code {
 }
 
 
+#getPdf{
+  border-radius: 24px!important;
+  background-color: #E9322E;
+}
+
+#getPdf:hover{
+  background-color: #19171A;
+}
 .card{
   background-color: #FFFFFF!important;
 }
