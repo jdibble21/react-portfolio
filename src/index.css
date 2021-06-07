@@ -71,3 +71,8 @@ a.disabled{
   pointer-events: none;
 }
 
+footer{
+  background-color: #19171A;
+  color: #FFFFFF;
+}
+

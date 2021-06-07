@@ -8,6 +8,7 @@ import DetailsSection from './components/details_section';
 import PageButtons from './components/buttons';
 import ContactSection from './components/contact';
 import NotFoundPage from './components/not_found';
+import Footer from './components/footer';
 
 class App extends Component {
   render() {
@@ -43,8 +44,8 @@ const HomePage = () => (
             </Switch>
           </div>
         </Router>
-        
         <ContactSection/>
+        <Footer/>
       </div>
 );
 
