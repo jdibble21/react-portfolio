@@ -3,7 +3,8 @@ body {
   font-family: "Verdana"!important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #19171A!important;
+  background-image: linear-gradient(#19171A,#4e4752)!important;
+
 }
 
 code {

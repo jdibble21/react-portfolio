@@ -47,6 +47,8 @@ const HomePage = () => (
         <ContactSection/>
       </div>
 );
+
+
 export default App;
 
 //External device testing

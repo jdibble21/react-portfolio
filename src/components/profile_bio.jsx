@@ -13,6 +13,7 @@ class ProfileBio extends Component {
     }
     render() { 
         return (
+            
             <Container className="mt-5 mb-4">
                 <Row>
                     <Col>

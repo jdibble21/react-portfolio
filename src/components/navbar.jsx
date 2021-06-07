@@ -4,9 +4,13 @@ import Nav from 'react-bootstrap/Nav';
 import pdf from './../files/jacob_dibble_resume.pdf';
 
 class NavbarCustom extends Component {
+  constructor(props) {
+    super(props);
+    this.myRef = React.createRef();
+  }
     render() { 
         return ( 
-          <Navbar  id="navBarOverride" expand="lg" className="fixed-top">
+          <Navbar ref={this.myRef} id="navBarOverride" expand="lg" className="fixed-top">
             <Navbar.Brand  href="/">Jacob Dibble</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -21,5 +25,5 @@ class NavbarCustom extends Component {
         );
     }
 }
- 
+
 export default NavbarCustom;
