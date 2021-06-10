@@ -14,7 +14,8 @@ class ProfileBio extends Component {
     render() { 
         return (
             
-            <Container className="mt-5 mb-4">
+            <Container className="mt-5 p-5 mb-4">
+                
                 <Row>
                     <Col>
                         <Image className="mx-auto" src={profileImage} style={this.backgroundStyle} alt="background image" fluid roundedCircle/>

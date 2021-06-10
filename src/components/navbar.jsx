@@ -10,7 +10,7 @@ class NavbarCustom extends Component {
   }
     render() { 
         return ( 
-          <Navbar ref={this.myRef} id="navBarOverride" expand="lg" className="fixed-top">
+          <Navbar ref={this.myRef} id="navBarOverride" expand="lg" className="fixed-top py-2">
             <Navbar.Brand  href="/">Jacob Dibble</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
