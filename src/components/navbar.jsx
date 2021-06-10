@@ -8,9 +8,27 @@ class NavbarCustom extends Component {
     super(props);
     this.myRef = React.createRef();
   }
+  state = {
+    sizeClass: "py-3",
+  }
+
+
+  componentDidMount(){
+    document.addEventListener("scroll", () => {
+      if(window.scrollY > 0){
+        //make smaller if not already
+        this.setState({sizeClass:"fixed-top py-0"});
+      }
+      if(window.scrollY == 0){
+        //make larger if not already
+        this.setState({sizeClass:"fixed-top py-3"});
+      }
+    });
+  }
+
     render() { 
         return ( 
-          <Navbar ref={this.myRef} id="navBarOverride" expand="lg" className="fixed-top py-2">
+          <Navbar ref={this.myRef} id="navBarOverride" expand="lg" className={this.state.sizeClass}>
             <Navbar.Brand  href="/">Jacob Dibble</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
