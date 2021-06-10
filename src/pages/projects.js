@@ -12,12 +12,13 @@ class ProjectsPage extends Component {
     }
     render() { 
         return ( 
+            <div>
             <Container className="mx-auto text-left" style={this.style}>
                 <h1 style={this.titleStyle} className="text-center">My Projects</h1>
                 <ProjectList/>
-                <Footer/>
             </Container>
-
+            <Footer/>
+            </div>
          );
     }
 }

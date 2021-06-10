@@ -13,12 +13,13 @@ class GamesPage extends Component {
     }
     render() { 
         return ( 
+            <div>
             <Container className="mx-auto text-left" style={this.style}>
                 <h1 style={this.titleStyle} className="text-center">Game page</h1>
                 <GamesList/>
-                <Footer/>
             </Container>
-            
+            <Footer/>
+            </div>
          );
     }
 }

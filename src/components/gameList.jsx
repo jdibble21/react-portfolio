@@ -12,7 +12,7 @@ class GamesList extends Component {
             <Container>
                 <Row>
                     <Col>
-                        <Card className="m-4">
+                        <Card className="m-5">
                             <Card.Title>Space Odyssey</Card.Title>
                             <div class="img-square-wrapper"><Image src={SO_Icon}></Image></div>
                             <Card.Body>Top-down scrolling space shooter. Shoot enemy ships and collect powerups through two levels with a unique boss at the end of each!</Card.Body>
@@ -21,7 +21,7 @@ class GamesList extends Component {
                 </Row>
                 <Row>
                     <Col>
-                        <Card className="m-4">
+                        <Card className="m-5">
                             <Card.Title>Spooky Invaders</Card.Title>
                             <Card.Body>Arcade inspired built with inspiration from space invaders and galaga. Theme for game was "Spooky Quarantine", created within 1 week.</Card.Body>
                         </Card>
@@ -29,7 +29,7 @@ class GamesList extends Component {
                 </Row>
                 <Row>
                     <Col>
-                        <Card className="m-4">
+                        <Card className="m-5">
                             <Card.Title>Forest Runner</Card.Title>
                             <Card.Body>Side scrolling platformer style game. Collect the sword, defeat the bandit, and make it to the end to win!</Card.Body>
                         </Card>

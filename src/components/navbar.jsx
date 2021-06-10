@@ -19,9 +19,9 @@ class NavbarCustom extends Component {
         //make smaller if not already
         this.setState({sizeClass:"fixed-top py-0"});
       }
-      if(window.scrollY == 0){
+      if(window.scrollY === 0){
         //make larger if not already
-        this.setState({sizeClass:"fixed-top py-3"});
+        this.setState({sizeClass:"static-top py-3"});
       }
     });
   }
