@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Card } from 'react-bootstrap';
 import SO_Icon from './../files/icons/space_odyssey.png';
+import SI_Icon from './../files/icons/spooky_invaders.png';
 import Image from 'react-bootstrap/Image';
 class GamesList extends Component {
     state = {  }
@@ -23,7 +24,8 @@ class GamesList extends Component {
                     <Col>
                         <Card className="m-5">
                             <Card.Title>Spooky Invaders</Card.Title>
-                            <Card.Body>Arcade inspired built with inspiration from space invaders and galaga. Theme for game was "Spooky Quarantine", created within 1 week.</Card.Body>
+                            <div class="img-square-wrapper"><Image src={SI_Icon}></Image></div>
+                            <Card.Body>Arcade inspired built with inspiration from space invaders and galaga. Shoot down the enemy skulls as you dodge their bone missles! Theme for game was "Spooky Quarantine", created within 1 week. Fun fact: All the visuals you see were done from scratch by me!</Card.Body>
                         </Card>
                     </Col>
                 </Row>
