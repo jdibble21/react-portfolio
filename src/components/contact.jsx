@@ -16,7 +16,7 @@ class ContactSection extends Component {
     }
     render() { 
         return ( 
-            <Container style={this.styles} className="mx-auto rounded m-5 text-center">
+            <Container id="contactContainer" style={this.styles} className="mx-auto rounded m-5 text-center">
                 <Row>
                 <Card className="m-5 mt-5 mx-auto" style={this.cardStyle}>
                     <Card.Title>Contact</Card.Title>

@@ -35,7 +35,7 @@ class NavbarCustom extends Component {
               <Nav className="mr-auto">
                 <Nav.Link  href="/projects">Projects</Nav.Link>
                 <Nav.Link  href="/games">Games</Nav.Link>
-                <Nav.Link  href="#contact">Contact</Nav.Link>
+                <Nav.Link  href="/contact">Contact</Nav.Link>
                 <Nav.Link  href={pdf} without rel="noopener noreferrer" target="_blank">Resume</Nav.Link>
               </Nav>
             </Navbar.Collapse>
