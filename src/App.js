@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import {HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 import ProjectsPage from './pages/projects';
 import GamesPage from './pages/gamepage';
 import NavbarCustom from './components/navbar';
@@ -14,11 +14,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router>
+        <HashRouter basename={process.env.PUBLIC_URL}>
           <div>
             <NavbarCustom/>
             <Switch>
               <Route exact path="/" component={HomePage}></Route>
+              <Route path="/homepage" componenet={HomePage}></Route>
               <Route path="/projects" component={ProjectsPage} ></Route>
               <Route path="/games" component={GamesPage}></Route>
               <Route path="/contact" component={ContactSection}></Route>
@@ -26,7 +27,7 @@ class App extends Component {
               <Redirect to="404"></Redirect>
             </Switch>
           </div>
-        </Router>
+        </HashRouter>
       </div>
     );
   }
@@ -36,7 +37,7 @@ const HomePage = () => (
       <div>
         <ProfileBio/>
         <DetailsSection/>
-        <Router>
+        <HashRouter>
           <div>
             <PageButtons />
             <Switch>
@@ -44,7 +45,7 @@ const HomePage = () => (
               <Route path="/games" component={GamesPage}></Route>
             </Switch>
           </div>
-        </Router>
+        </HashRouter>
         <ContactSection/>
         <Footer/>
       </div>
