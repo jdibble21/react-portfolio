@@ -18,9 +18,8 @@ class App extends Component {
             <NavbarCustom/>
             <Switch>
               <Route exact path="/" component={HomePage}></Route>
-              <Route path="react-portfolio/#/homepage" component={HomePage}></Route>
-              <Route path="react-portfolio/#/projects" component={ProjectsPage} ></Route>
-              <Route path="react-portfolio/#/games" component={GamesPage}></Route>
+              <Route path="/projects" component={ProjectsPage} ></Route>
+              <Route path="/react-portfolio/#/games" component={GamesPage}></Route>
               <Route path="/contact" component={ContactSection}></Route>
               <Route path="404" component={NotFoundPage}></Route>
               <Redirect to="404"></Redirect>
