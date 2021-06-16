@@ -20,8 +20,8 @@ class App extends Component {
               <Route exact path="/" component={HomePage}></Route>
               <Route path="/homepage" componenet={HomePage}></Route>
               <Route exact path="/react-portfolio/projects" component={ProjectsPage} ></Route>
-              <Route path="games" component={GamesPage}></Route>
-              <Route path="contact" component={ContactSection}></Route>
+              <Route path="/react-portfolio/games" component={GamesPage}></Route>
+              <Route path="/contact" component={ContactSection}></Route>
               <Route path="404" component={NotFoundPage}></Route>
               <Redirect to="404"></Redirect>
             </Switch>
