@@ -34,7 +34,7 @@ const HomePage = () => (
       <div>
         <ProfileBio/>
         <DetailsSection/>
-        <HashRouter>
+        <HashRouter basename={process.env.PUBLIC_URL}>
           <div>
             <PageButtons />
             <Switch>
