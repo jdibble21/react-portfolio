@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import {HashRouter} from 'react-router-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css'; 
 import 'bootstrap/dist/js/bootstrap';
@@ -9,7 +10,9 @@ import 'jquery/dist/jquery';
 
 ReactDOM.render(
     <React.StrictMode>
-      <App />
+      <HashRouter basename={process.env.PUBLIC_URL}>
+        <App />
+      </HashRouter>
     </React.StrictMode>,
     document.getElementById('root')
   );
