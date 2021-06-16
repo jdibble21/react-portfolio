@@ -29,7 +29,7 @@ class NavbarCustom extends Component {
     render() { 
         return ( 
           <Navbar ref={this.myRef} id="navBarOverride" expand="lg" className={this.state.sizeClass}>
-            <Navbar.Brand  href="/">Jacob Dibble</Navbar.Brand>
+            <Navbar.Brand  href="https://jdibble21.github.io/react-portfolio/#/">Jacob Dibble</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
