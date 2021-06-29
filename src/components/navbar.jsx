@@ -29,11 +29,11 @@ class NavbarCustom extends Component {
     render() { 
         return ( 
           <Navbar ref={this.myRef} id="navBarOverride" expand="lg" className={this.state.sizeClass}>
-            <Navbar.Brand  href="https://jacobdibble.net/react-portfolio/#/">Jacob Dibble</Navbar.Brand>
+            <Navbar.Brand  href="https://jacobdibble.net/">Jacob Dibble</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link  href="https://jacob-dibble.net/react-portfolio/#/projects">Projects</Nav.Link>
+                <Nav.Link  href="https://jacobdibble.net/react-portfolio/#/projects">Projects</Nav.Link>
                 <Nav.Link  href="https://jdibble21.github.io/react-portfolio/#/games">Games</Nav.Link>
                 <Nav.Link  href="https://jdibble21.github.io/react-portfolio/#/contact">Contact</Nav.Link>
                 <Nav.Link  href={pdf} without rel="noopener noreferrer" target="_blank">Resume</Nav.Link>
