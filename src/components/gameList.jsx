@@ -19,7 +19,7 @@ class GamesList extends Component {
                             <div class="img-square-wrapper"><Image src={SO_Icon}></Image></div>
                             <Card.Subtitle className="m-4">Development Duration: 5 weeks</Card.Subtitle>
                             <Card.Body>Top-down scrolling space shooter. Shoot enemy ships and collect powerups through two levels with a unique boss at the end of each! Created with inspriation from Galaga.</Card.Body>
-                            <Card.Link className="m-2" href="https://bsu-cs315.github.io/FP-Space-Odyssey/" target="_blank">Play!</Card.Link>
+                            <Card.Link className="m-2" href="https://jdibble21.github.io/FP-Space-Odyssey/" target="_blank">Play!</Card.Link>
                         </Card>
                     </Col>
                 </Row>
@@ -30,7 +30,7 @@ class GamesList extends Component {
                             <div class="img-square-wrapper"><Image src={SI_Icon}></Image></div>
                             <Card.Subtitle className="m-4">Development Duration: 1 week</Card.Subtitle>
                             <Card.Body>Arcade inspired built with inspiration from Space Invaders. Shoot down the enemy skulls as you dodge their bone missles! Theme for game was "Spooky Quarantine", created within 1 week. Fun fact: All the visuals you see were done from scratch by me!</Card.Body>
-                            <Card.Link className="m-2" href="https://bsu-cs315.github.io/MJ-Spooky-Invaders/" target="_blank">Play!</Card.Link>
+                            <Card.Link className="m-2" href="https://jdibble21.github.io/MJ-Spooky-Invaders/" target="_blank">Play!</Card.Link>
                         </Card>
                     </Col>
                 </Row>
@@ -41,7 +41,7 @@ class GamesList extends Component {
                             <div class="img-square-wrapper"><Image src={FR_Icon}></Image></div>
                             <Card.Subtitle className="m-4">Development Duration: 2 weeks</Card.Subtitle>
                             <Card.Body>Side scrolling platformer style game, a sort of hybrid between Mario and the Legend of Zelda. Collect the sword, defeat the bandit, and make it to the end to win!</Card.Body>
-                            <Card.Link className="m-2" href="https://bsu-cs315.github.io/P2-Forest-Run/" target="_blank">Play!</Card.Link>
+                            <Card.Link className="m-2" href="https://jdibble21.github.io/P2-Forest-Run/" target="_blank">Play!</Card.Link>
                         </Card>
                     </Col>
                 </Row>
