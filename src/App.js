@@ -21,8 +21,8 @@ class App extends Component {
               <Route exact path="/projects" component={ProjectsPage} ></Route>
               <Route exact path="/games" component={GamesPage}></Route>
               <Route path="/contact" component={ContactSection}></Route>
-              <Route path="404" component={NotFoundPage}></Route>
-              <Redirect to="404"></Redirect>
+              <Route path="/404" component={NotFoundPage}></Route>
+              <Redirect to="/404"></Redirect>
             </Switch>
           </div>
       </div>
