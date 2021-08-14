@@ -22,7 +22,7 @@ class ProfileBio extends Component {
                     </Col>
                     <Col className="mx-auto" sm="8">
                         <Card className="card text-center m-5">
-                            <Card.Body>Hello! My name is Jake Dibble, I am a recent graduate of Ball State University with a B.S. in Computer Science and extensive experience with full-stack web development. I am currently looking for a software engineering position where I can collaborate with talented individuals and grow my skills as a developer. Check out some of my projects and feel free to download a copy of my resume!</Card.Body>
+                            <Card.Body>Hello! My name is Jake Dibble, I am a Frontend Software Developer for RTI International based in Raleigh, NC. Check out some of my projects and feel free to download a copy of my resume!</Card.Body>
                         </Card>
                     </Col>
                 </Row>
