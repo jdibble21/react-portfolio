@@ -6,16 +6,17 @@ import Button from 'react-bootstrap/Button';
 
 class PageButtons extends Component {
     state = {  }
+    
     render() { 
         return (
             <Container className="mx-auto">
                 <Row>
                     <Col>
-                        <Button className="mx-auto m-5 round" href="https://jdibble21.github.io/react-portfolio/#/projects" size="lg" block>Projects</Button>
+                        <Button className="mx-auto m-5 round" href="/#/projects" size="lg" block>Projects</Button>
                     </Col>
                     <Col sm="1"></Col>
                     <Col>
-                        <Button className="mx-auto m-5 round" href="https://jdibble21.github.io/react-portfolio/#/games" size="lg" block>Games</Button>
+                        <Button className="mx-auto m-5 round" href="/#/games" size="lg" block>Games</Button>
                     </Col>
                 </Row>
             </Container>
